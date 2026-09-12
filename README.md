@@ -4,8 +4,6 @@ A custom 8-bit CPU datapath developed as a university digital design project usi
 
 The project was implemented and validated through simulation and FPGA deployment.
 
-> **Source note:** The repository source has been reconstructed from screenshots of the original Verilog modules. The module interfaces, signals, ALU operation codes and interconnections follow the supplied screenshots. Numerical test vectors, synthesis constraints and FPGA board-specific top-level files were not included in the available material.
-
 ## Architecture
 
 ```text
@@ -13,16 +11,16 @@ The project was implemented and validated through simulation and FPGA deployment
                          │      Register       │
                          │       File          │
                          │                     │
-             rA ────────►│ Read address       │
-             wA ────────►│ Write address      │
-             wR ────────►│ Read / write       │
+             rA ────────►│ Read address        │
+             wA ────────►│ Write address       │
+             wR ────────►│ Read / write        │
                          └─────────┬───────────┘
                                    │
                                    │ Reg_Out
                                    ▼
                          ┌─────────────────────┐
                          │       MUX /         │
-                         │     Bus Selector     │
+                         │     Bus Selector    │
                          │                     │
                          │ constants           │
                          │ Reg_Out             │
