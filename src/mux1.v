@@ -1,5 +1,4 @@
 // Multiplexer / bus selection module
-// Reconstructed from the provided project screenshot.
 
 module mux1(
     input clock,
