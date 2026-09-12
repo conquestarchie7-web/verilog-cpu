@@ -172,27 +172,8 @@ verilog-cpu/
 │   ├── alu1.v
 │   ├── mux1.v
 │   └── Reg1.v
-└── docs/
-    └── reconstruction-notes.md
+
 ```
-
-## Reconstruction notes
-
-The available source material consisted of screenshots of the original `alu1.v`, `Reg1.v`, `mux1.v` and `CPU.v` modules.
-
-The repository therefore preserves the visible design rather than introducing a substantially different architecture.
-
-The following were directly visible in the supplied source:
-
-- 8-bit datapaths
-- 8-entry register file
-- 3-bit register addresses
-- 3-bit ALU function selection
-- arithmetic, logical and multiplication operations
-- synchronous `posedge clock` updates
-- top-level interconnection of ALU, register file and MUX
-
-The screenshots did not provide the original simulation testbench, FPGA constraint files, timing information or board-specific wrapper.
 
 ## Technologies
 
