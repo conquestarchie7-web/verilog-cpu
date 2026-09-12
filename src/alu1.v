@@ -1,5 +1,4 @@
 // ALU module
-// Reconstructed from the provided project screenshot.
 
 module alu1(
     input clock,
@@ -17,7 +16,7 @@ module alu1(
     // 1  A + B
     // 2  A - B
     // 3  A + 1
-    // 4  A - 1  (shown in original screenshot as not implemented)
+    // 4  A - 1  
     // 5  A & B
     // 6  A * B
 
