@@ -1,5 +1,4 @@
 // Register file module
-// Reconstructed from the provided project screenshot.
 
 module Reg1(
     input clock,
@@ -11,7 +10,7 @@ module Reg1(
 );
 
     // 8 registers, each 8 bits wide.
-    // The original project note states that the register file is not reset
+    // In the original project version the register file is not reset
     // to zero and is instead filled according to the program sequence.
     reg [7:0] R [0:7];
     reg [7:0] DataOut;
