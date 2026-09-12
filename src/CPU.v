@@ -1,5 +1,4 @@
 // Top-level CPU integration module
-// Reconstructed from the provided project screenshot.
 //
 // The module connects the register file, ALU and multiplexer through
 // 8-bit internal buses.
